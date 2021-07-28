@@ -1,38 +1,97 @@
+html {
+  overflow-y: scroll;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 4vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 10px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  width: 360px;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.user:hover {
+  background-color: #ecf0f1 !important;
+}
+
+input {
+  margin-top: 30px;
+  width: 400px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.id {
+  color: #cdcdcd;
+}
+
+.name {
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.username {
+  color: #125d98;
+  padding-left: 15px;
+  font-weight: 400;
+}
+
+.users {
+  margin-top: 20px !important;
+  margin: 0 auto;
+  display: table;
+}
+
+.moreInfo {
+  width: 100%;
+  padding: 7px;
+}
+
+.moreInfo a {
+  color: blue;
+}
+
+.info {
+  background-color: #dddddd;
+  border-radius: 4px;
+  display: none;
+}
+
+.email,
+.phone,
+.website {
+  font-weight: 700;
+  color: #125d98;
 }
