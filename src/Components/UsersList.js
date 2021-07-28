@@ -14,11 +14,13 @@ export default class UsersList extends Component {
   }
 
   handleClick(event, key) {
-    let display = document.getElementsByClassName("info")[key].style.display;
-    if (display !== "block") {
-      document.getElementsByClassName("info")[key].style.display = "block";
+    let opacity = document.getElementsByClassName("info")[key].style.opacity;
+    if (opacity === "0") {
+      document.getElementsByClassName("info")[key].style.maxHeight = "500px";
+      document.getElementsByClassName("info")[key].style.opacity = "1";
     } else {
-      document.getElementsByClassName("info")[key].style.display = "none";
+      document.getElementsByClassName("info")[key].style.maxHeight = "0";
+      document.getElementsByClassName("info")[key].style.opacity = "0";
     }
   }
 

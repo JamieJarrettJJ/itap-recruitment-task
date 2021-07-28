@@ -90,7 +90,15 @@ a:hover {
 .info {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  display: none;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.info.active {
+  max-height: 500px;
+  display: block;
 }
 
 .email,
