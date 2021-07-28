@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/itap-recruitment-task/static/css/main.d63a42cf.chunk.css",
+    "main.css": "/itap-recruitment-task/static/css/main.0bf679dc.chunk.css",
     "main.js": "/itap-recruitment-task/static/js/main.46438f4f.chunk.js",
     "main.js.map": "/itap-recruitment-task/static/js/main.46438f4f.chunk.js.map",
     "runtime-main.js": "/itap-recruitment-task/static/js/runtime-main.52de747c.js",
@@ -10,14 +10,14 @@
     "static/js/3.c201dc2d.chunk.js": "/itap-recruitment-task/static/js/3.c201dc2d.chunk.js",
     "static/js/3.c201dc2d.chunk.js.map": "/itap-recruitment-task/static/js/3.c201dc2d.chunk.js.map",
     "index.html": "/itap-recruitment-task/index.html",
-    "static/css/main.d63a42cf.chunk.css.map": "/itap-recruitment-task/static/css/main.d63a42cf.chunk.css.map",
+    "static/css/main.0bf679dc.chunk.css.map": "/itap-recruitment-task/static/css/main.0bf679dc.chunk.css.map",
     "static/js/2.c8ed9ea2.chunk.js.LICENSE.txt": "/itap-recruitment-task/static/js/2.c8ed9ea2.chunk.js.LICENSE.txt",
     "static/media/logo.86935f2e.svg": "/itap-recruitment-task/static/media/logo.86935f2e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.52de747c.js",
     "static/js/2.c8ed9ea2.chunk.js",
-    "static/css/main.d63a42cf.chunk.css",
+    "static/css/main.0bf679dc.chunk.css",
     "static/js/main.46438f4f.chunk.js"
   ]
 }
